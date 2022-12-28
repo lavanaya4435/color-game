@@ -11,10 +11,10 @@ document.getElementById(index).style.backgroundColor="rgb("+r+","+g+","+b+")";
 
 arr.splice(index,1);
 
-// var r1= Math.floor((Math.random())*256);
-// var g1= Math.floor((Math.random())*256);
-// var b1= Math.floor((Math.random())*256);
-// document.getElementById(arr[0]).style.backgroundColor="rgb("+r1+","+g1+","+b1+")";
+var r1= Math.floor((Math.random())*256);
+var g1= Math.floor((Math.random())*256);
+var b1= Math.floor((Math.random())*256);
+document.getElementById(arr[0]).style.backgroundColor="rgb("+r1+","+g1+","+b1+")";
 
 var r2= Math.floor((Math.random())*256);
 var g2= Math.floor((Math.random())*256);
