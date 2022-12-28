@@ -34,9 +34,9 @@ function guess(){
          document.getElementById("h1").style.backgroundColor="red"
     }
 
-//     document.getElementsByClassName("btn")[0].removeAttribute("onclick");
-//     document.getElementsByClassName("btn")[1].removeAttribute("onclick");
-//     document.getElementsByClassName("btn")[2].removeAttribute("onclick");
+    document.getElementsByClassName("btn")[0].removeAttribute("onclick");
+    document.getElementsByClassName("btn")[1].removeAttribute("onclick");
+    document.getElementsByClassName("btn")[2].removeAttribute("onclick");
 
 
 }
